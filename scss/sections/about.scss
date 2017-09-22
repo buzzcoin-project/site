@@ -1,0 +1,25 @@
+#about {
+  background: #fff;
+  margin-top: 64px;
+
+  .about-container {
+    background: url(../img/about-img.jpg) left top no-repeat;
+  }
+
+  .about-content {
+    background: #fff;
+  }
+
+  .about-title {
+    color: #333;
+    font-weight: 700;
+    font-size: 28px;
+  }
+
+  .about-text {
+    line-height: 26px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

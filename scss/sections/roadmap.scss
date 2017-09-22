@@ -2,13 +2,27 @@
   --------------------------------*/
 #roadmap {
   background: #f6f6f6;
-  padding: 80px 0;
+  padding: 64px 0;
 }
 
 #roadmap .container {
-  height: 600px;
+  height: 850px;
 }
 
 .progress-bar {
   background-color: #ffdd55;
+}
+
+@media (min-width: 500px) {
+  height: 720px;
+}
+
+@media (min-width: 768px) {
+  #roadmap .col-sm-2 {
+    min-width: 25%;
+  }
+
+  #roadmap .container {
+    height: 400px;
+  }
 }

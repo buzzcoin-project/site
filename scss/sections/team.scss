@@ -1,0 +1,44 @@
+#team {
+  background: #fff;
+  padding: 80px 0 60px 0;
+
+  .member {
+    text-align: center;
+    margin-bottom: 20px;
+    .pic {
+      margin-bottom: 15px;
+      overflow: hidden;
+      height: 260px;
+
+      img {
+        max-width: 100%;
+      }
+    }
+
+    h4 {
+      font-weight: 700;
+      margin-bottom: 2px;
+    }
+
+    span {
+      font-style: italic;
+      display: block;
+      font-size: 13px;
+    }
+
+    .social {
+      margin-top: 15px;
+      a {
+        color: lighten($text-color, 30%);
+        &:hover {
+          color: $accent-color;
+        }
+      }
+
+      i {
+        font-size: 18px;
+        margin: 0 2px;
+      }
+    }
+  }
+}
