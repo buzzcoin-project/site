@@ -1,0 +1,29 @@
+{
+  "name": "buzz-site",
+  "version": "1.0.0",
+  "description": "1200% PoS Coin Site",
+  "main": "n/a",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "n/a",
+    "build": "gulp styles",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buzzcoin-project/site.git"
+  },
+  "keywords": ["buzz", "open-source", "PoS", "blockchain", "geil"],
+  "author": "Austin Witherow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buzzcoin-project/site/issues"
+  },
+  "homepage": "https://github.com/buzzcoin-project/site#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
