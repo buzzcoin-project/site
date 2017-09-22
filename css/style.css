@@ -112,18 +112,6 @@ h6 {
           display: block; } }
   #hero .rotating > .animated {
     display: inline-block; }
-  #hero .actions a {
-    font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 8px 20px;
-    border-radius: 2px;
-    transition: 0.5s;
-    margin: 10px;
-    color: black; }
   #hero .btn-get-started {
     background: #ffdd55;
     border: 2px solid #ffdd55;
@@ -758,3 +746,25 @@ body.mobile-nav-active {
     text-align: center;
     font-size: 13px;
     color: #ccc; }
+
+.btn {
+  background: #ffdd55;
+  border: 2px solid #ffdd55;
+  color: #fff; }
+  .btn:hover {
+    background: none;
+    border: 2px solid #fff;
+    color: #fff; }
+
+.actions a {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  color: black; }

@@ -10,3 +10,30 @@
 @import "_nav.scss";
 @import "_sections.scss";
 @import "_footer.scss";
+
+.btn {
+  background: $accent-color;
+  border: 2px solid $accent-color;
+  color: #fff;
+  &:hover {
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+}
+
+.actions {
+  a {
+    font-family: $heading-font;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 2px;
+    transition: 0.5s;
+    margin: 10px;
+    color: black;
+  }
+}
