@@ -2,8 +2,11 @@
 # Sections
 --------------------------------------------------------------*/
 
-/* Sections Common
---------------------------------*/
+@import "./sections/community.scss";
+@import "./sections/roadmap.scss";
+@import "./sections/downloads.scss";
+@import "./sections/exchanges.scss";
+
 .section-title {
   font-size: 32px;
   color: #111;

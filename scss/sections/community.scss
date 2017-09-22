@@ -1,0 +1,37 @@
+/* community Section
+--------------------------------*/
+#community {
+  background: #f6f6f6;
+  padding: 80px 0;
+}
+
+#community .container {
+  height: 600px;
+}
+
+#community .profile {
+  text-align: center;
+}
+
+#community .profile .pic {
+  border-radius: 50%;
+  border: 6px solid #fff;
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 260px;
+  width: 260px;
+}
+
+#community .profile .pic img {
+  max-width: 100%;
+}
+
+#community .profile h4 {
+  font-weight: 700;
+  color: #ffdd55;
+  margin-bottom: 5px;
+}
+
+#community .profile span {
+  color: #333333;
+}

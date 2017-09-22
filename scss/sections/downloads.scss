@@ -1,0 +1,65 @@
+/* downloads Section
+--------------------------------*/
+#downloads {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url("../img/downloads-bg.jpg") fixed center center;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
+
+#downloads .container {
+  height: 600px;
+}
+
+#downloads .service-item,
+#about .service-item {
+  margin-bottom: 20px;
+}
+
+#downloads .service-icon,
+#about .service-icon {
+  float: left;
+  background: #ffdd55;
+  padding: 16px;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #ffdd55;
+}
+
+#downloads .service-icon i,
+#about .service-icon i {
+  color: #fff;
+  font-size: 24px;
+}
+
+#downloads .service-item:hover .service-icon,
+#about .service-item:hover .service-icon {
+  background: #fff;
+}
+
+#downloads .service-item:hover .service-icon i,
+#about .service-item:hover .service-icon i {
+  color: #ffdd55;
+}
+
+#downloads .service-title,
+#about .service-title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#downloads .service-title a,
+#about .service-title a {
+  color: #111;
+}
+
+#downloads .service-description,
+#about .service-description {
+  margin-left: 80px;
+  line-height: 24px;
+}
