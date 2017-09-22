@@ -33,4 +33,8 @@
   background: $accent-color;
   margin: 0 auto;
   margin-bottom: 20px;
+
+  &.left {
+    margin: 24px 0 48px 0;
+  }
 }

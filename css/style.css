@@ -350,6 +350,8 @@ body.mobile-nav-active {
 #about {
   background: #fff;
   margin-top: 64px; }
+  #about .about-intro {
+    margin-bottom: 48px; }
   #about .about-container {
     background: url(../img/about-img.jpg) left top no-repeat;
     margin-top: 48px; }
@@ -453,7 +455,7 @@ body.mobile-nav-active {
 
 #downloads .service-item,
 #about .service-item {
-  margin-bottom: 20px; }
+  margin: 0 auto 20px auto; }
 
 #downloads .service-icon,
 #about .service-icon {
@@ -588,7 +590,7 @@ body.mobile-nav-active {
 
 @media (min-width: 768px) {
   #roadmap .col-sm-2 {
-    min-width: 25%; }
+    min-width: 50%; }
   #roadmap .container {
     height: 400px; } }
 
@@ -739,6 +741,8 @@ body.mobile-nav-active {
   background: #ffdd55;
   margin: 0 auto;
   margin-bottom: 20px; }
+  .section-title-divider.left {
+    margin: 24px 0 48px 0; }
 
 /*--------------------------------------------------------------
 # Footer
