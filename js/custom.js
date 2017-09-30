@@ -127,4 +127,13 @@ jQuery(document).ready(function($) {
     $("html, body").animate({ scrollTop: 0 }, 1500, "easeInOutExpo");
     return false;
   });
+
+
+  // RSS feed pull from medium.com
+    $("#rssFeed").rss("https://medium.com/feed/buzzcoin/", {
+      layoutTemplate: "<ul class='list-unstyled'>{entries}</ul>",
+      entryTemplate: '<li class="list-unstyled"><a href="{url}" target="_blank"><h3 class="about-title">{title}</h3></a><div class="row"><div class="col-md-4">{teaserImage}</div><div class="col-md-8"><p class="about-text">{shortBodyPlain}</p><div class="actions"><a href="{url}" target="_blank" class="btn">Read More</a></div></div></li>'
+    });
+
+
 });
