@@ -712,6 +712,9 @@ body.mobile-nav-active {
       position: relative;
       top: 4px; }
 
+.blog__item {
+  margin: 24px 0; }
+
 .section-title {
   font-size: 32px;
   color: #111;
@@ -768,8 +771,3 @@ body.mobile-nav-active {
   transition: 0.5s;
   margin: 10px;
   color: black; }
-
-
-#rssFeed img {
-  width: 100%;
-}
