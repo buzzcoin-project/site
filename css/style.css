@@ -758,9 +758,9 @@ body.mobile-nav-active {
   border: 2px solid #ffdd55;
   color: #fff; }
   .btn:hover {
-    background: none;
-    border: 2px solid #fff;
-    color: #fff; }
+    background: #fff7d5;
+    border: 2px solid #d5aa00;
+    color: #d5aa00; }
 
 .actions a {
   font-family: "Raleway", sans-serif;

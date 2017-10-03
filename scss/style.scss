@@ -15,10 +15,11 @@
   background: $accent-color;
   border: 2px solid $accent-color;
   color: #fff;
+
   &:hover {
-    background: none;
-    border: 2px solid #fff;
-    color: #fff;
+    background: lighten($accent-color, 25%);
+    border: 2px solid darken($accent-color, 25%);
+    color: darken($accent-color, 25%);
   }
 }
 
