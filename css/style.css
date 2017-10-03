@@ -712,6 +712,9 @@ body.mobile-nav-active {
       position: relative;
       top: 4px; }
 
+#rssFeed img {
+  width: 100%; }
+
 .blog__item {
   margin: 24px 0; }
 
