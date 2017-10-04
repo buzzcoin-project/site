@@ -130,8 +130,15 @@ jQuery(document).ready(function($) {
 
   // RSS feed pull from medium.com
   $("#rssFeed").rss("https://medium.com/feed/buzzcoin/", {
+    limit: 5,
+    tokens: {
+      modifiedBody: function(entry, tokens) {
+        console.log(tokens);
+        return tokens.bodyPlain.slice(0, 240) + "...";
+      }
+    },
     layoutTemplate: "<ul class='list-unstyled blog'>{entries}</ul>",
     entryTemplate:
-      '<li class="list-unstyled blog__item"><a href="{url}" target="_blank"><h3 class="about-title">{title}</h3></a><div class="row"><div class="col-md-4">{teaserImage}</div><div class="col-md-8"><p class="about-text">{shortBodyPlain}</p><div class="actions"><a href="{url}" target="_blank" class="btn">Read More</a></div></div></li>'
+      '<li class="list-unstyled blog__item"><a href="{url}" target="_blank"><h4>{title}</h4></a><div class="row"><div class="col-md-4">{teaserImage}</div><div class="col-md-8"><p>{modifiedBody}</p><div class="actions"><a href="{url}" target="_blank" class="btn">Read More</a></div></div></li>'
   });
 });
