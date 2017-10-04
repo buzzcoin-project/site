@@ -133,8 +133,11 @@ jQuery(document).ready(function($) {
     limit: 5,
     tokens: {
       modifiedBody: function(entry, tokens) {
-        console.log(tokens);
-        return tokens.bodyPlain.slice(0, 240) + "...";
+        var length = 500;
+        if (window.innerWidth && window.innerWidth < 768) {
+          length = 240;
+        }
+        return tokens.bodyPlain.slice(0, length) + "...";
       }
     },
     layoutTemplate: "<ul class='list-unstyled blog'>{entries}</ul>",
