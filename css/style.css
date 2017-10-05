@@ -83,7 +83,7 @@ h6 {
     #hero .hero-logo img {
       max-width: 100%; }
   #hero .hero-container {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.33);
     display: table-cell;
     margin: 0;
     padding: 0;
