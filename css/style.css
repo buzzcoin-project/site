@@ -1,6 +1,7 @@
 /*
   Theme Name: Imperial
 */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -30,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0; }
@@ -145,7 +146,7 @@ h6 {
       margin: 0;
       padding: 6px 0;
       line-height: 1;
-      font-family: "Raleway", sans-serif;
+      font-family: "Open Sans", sans-serif;
       font-weight: 700;
       letter-spacing: 3px;
       text-transform: uppercase; }
@@ -648,7 +649,7 @@ body.mobile-nav-active {
     text-align: center;
     padding-top: 20px; }
   #subscribe .subscribe-btn {
-    font-family: "Raleway", sans-serif;
+    font-family: "Open Sans", sans-serif;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 16px;
@@ -801,7 +802,7 @@ body.mobile-nav-active {
     color: #d5aa00; }
 
 .actions a {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
