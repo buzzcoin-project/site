@@ -488,6 +488,12 @@ body.mobile-nav-active {
   margin-left: 80px;
   line-height: 24px; }
 
+.steps {
+  padding: 50px; }
+
+.step {
+  padding: 25px; }
+
 /* exchanges Section
   --------------------------------*/
 #exchanges {
