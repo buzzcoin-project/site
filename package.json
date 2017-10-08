@@ -15,7 +15,13 @@
     "type": "git",
     "url": "git+https://github.com/buzzcoin-project/site.git"
   },
-  "keywords": ["buzz", "open-source", "PoS", "blockchain", "geil"],
+  "keywords": [
+    "buzz",
+    "open-source",
+    "PoS",
+    "blockchain",
+    "geil"
+  ],
   "author": "Austin Witherow",
   "license": "ISC",
   "bugs": {

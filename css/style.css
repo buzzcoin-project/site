@@ -35,6 +35,10 @@ h6 {
   margin: 0 0 20px 0;
   padding: 0; }
 
+.video {
+  margin: 0 auto;
+  text-align: center; }
+
 /* Prelaoder */
 #preloader {
   position: fixed;
