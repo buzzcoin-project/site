@@ -112,18 +112,18 @@ h6 {
           display: block; } }
   #hero .rotating > .animated {
     display: inline-block; }
-  #hero .btn-get-started {
-    background: #ffdd55;
+  #hero .btn.about {
+    background: none;
     border: 2px solid #ffdd55;
-    color: #fff; }
-    #hero .btn-get-started:hover {
-      background: none;
-      border: 2px solid #fff;
-      color: #fff; }
-  #hero .btn-services {
-    border: 2px solid #fff;
-    color: #fff; }
-    #hero .btn-services:hover {
+    color: #ffdd55; }
+    #hero .btn.about:hover {
+      background: rgba(255, 255, 255, 0.25);
+      border: 2px solid #rgba 255, 255, 255, 0.25;
+      color: white; }
+  #hero .btn.start {
+    border: 2px solid #ffdd55;
+    color: black; }
+    #hero .btn.start:hover {
       background: #ffdd55;
       border: 2px solid #ffdd55; }
 
@@ -576,16 +576,11 @@ body.mobile-nav-active {
   --------------------------------*/
 #roadmap {
   background: #f6f6f6;
-  padding: 64px 0; }
-
-#roadmap .container {
-  height: 850px; }
+  padding: 64px 0;
+  height: auto; }
 
 .progress-bar {
   background-color: #ffdd55; }
-
-@media (min-width: 500px) {
-  height: 720px; }
 
 @media (max-width: 768px) {
   .roadmap-item .section-title {
@@ -595,9 +590,7 @@ body.mobile-nav-active {
 
 @media (min-width: 768px) {
   .roadmap-item {
-    min-width: 50%; }
-  #roadmap .container {
-    height: 400px; } }
+    min-width: 50%; } }
 
 #services {
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;

@@ -3,18 +3,11 @@
 #roadmap {
   background: #f6f6f6;
   padding: 64px 0;
-}
-
-#roadmap .container {
-  height: 850px;
+  height: auto;
 }
 
 .progress-bar {
   background-color: #ffdd55;
-}
-
-@media (min-width: 500px) {
-  height: 720px;
 }
 
 @media (max-width: 768px) {
@@ -31,9 +24,5 @@
 @media (min-width: 768px) {
   .roadmap-item {
     min-width: 50%;
-  }
-
-  #roadmap .container {
-    height: 400px;
   }
 }
