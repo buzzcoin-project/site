@@ -1,0 +1,25 @@
+#get-started{
+  margin: 80px auto !important;
+  
+  .container {
+    max-width: 900px !important;
+    margin: 0 auto;
+  }
+
+  h4 {
+    text-align: center;
+    line-height: 24px;
+  }
+
+  .video-box {
+    max-width: 900px !important;
+    height: 200px;
+
+    @media(min-width: 425px) {
+      height: 250px;
+    }
+    @media(min-width: 768px) {
+      height: 400px;
+    }
+  }
+}
