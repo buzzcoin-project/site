@@ -1,3 +1,7 @@
+.alt-bg {
+  background-color: $accent-color;
+}
+
 #get-started,
 #coin-control {
   margin: 80px auto !important;
@@ -5,6 +9,17 @@
   &:first-of-type {
     margin: 0px auto 80px auto !important;
   }
+
+  &:last-of-type {
+    margin: 80px auto 0 auto !important;
+    padding-bottom: 80px;
+  }
+
+  a {
+    color: white;
+  }
+
+  font-size: 120%;
 
   .container {
     max-width: 900px !important;

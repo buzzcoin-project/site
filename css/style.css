@@ -437,12 +437,23 @@ body.mobile-nav-active {
   margin-left: 80px;
   line-height: 24px; }
 
+.alt-bg {
+  background-color: #ffdd55; }
+
 #get-started,
 #coin-control {
-  margin: 80px auto !important; }
+  margin: 80px auto !important;
+  font-size: 120%; }
   #get-started:first-of-type,
   #coin-control:first-of-type {
     margin: 0px auto 80px auto !important; }
+  #get-started:last-of-type,
+  #coin-control:last-of-type {
+    margin: 80px auto 0 auto !important;
+    padding-bottom: 80px; }
+  #get-started a,
+  #coin-control a {
+    color: white; }
   #get-started .container,
   #coin-control .container {
     max-width: 900px !important;
@@ -560,12 +571,23 @@ body.mobile-nav-active {
   .blog__item .actions {
     margin-bottom: 24px; }
 
+.alt-bg {
+  background-color: #ffdd55; }
+
 #get-started,
 #coin-control {
-  margin: 80px auto !important; }
+  margin: 80px auto !important;
+  font-size: 120%; }
   #get-started:first-of-type,
   #coin-control:first-of-type {
     margin: 0px auto 80px auto !important; }
+  #get-started:last-of-type,
+  #coin-control:last-of-type {
+    margin: 80px auto 0 auto !important;
+    padding-bottom: 80px; }
+  #get-started a,
+  #coin-control a {
+    color: white; }
   #get-started .container,
   #coin-control .container {
     max-width: 900px !important;
