@@ -2,6 +2,10 @@
 #coin-control {
   margin: 80px auto !important;
 
+  &:first-of-type {
+    margin: 0px auto 80px auto !important;
+  }
+
   .container {
     max-width: 900px !important;
     margin: 0 auto;

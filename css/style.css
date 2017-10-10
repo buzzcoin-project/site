@@ -440,6 +440,9 @@ body.mobile-nav-active {
 #get-started,
 #coin-control {
   margin: 80px auto !important; }
+  #get-started:first-of-type,
+  #coin-control:first-of-type {
+    margin: 0px auto 80px auto !important; }
   #get-started .container,
   #coin-control .container {
     max-width: 900px !important;
@@ -560,6 +563,9 @@ body.mobile-nav-active {
 #get-started,
 #coin-control {
   margin: 80px auto !important; }
+  #get-started:first-of-type,
+  #coin-control:first-of-type {
+    margin: 0px auto 80px auto !important; }
   #get-started .container,
   #coin-control .container {
     max-width: 900px !important;
