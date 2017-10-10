@@ -1,6 +1,7 @@
-#get-started{
+#get-started,
+#coin-control {
   margin: 80px auto !important;
-  
+
   .container {
     max-width: 900px !important;
     margin: 0 auto;
@@ -15,11 +16,15 @@
     max-width: 900px !important;
     height: 200px;
 
-    @media(min-width: 425px) {
+    @media (min-width: 425px) {
       height: 250px;
     }
-    @media(min-width: 768px) {
+    @media (min-width: 768px) {
       height: 400px;
+    }
+
+    @media (min-width: 900px) {
+      height: 450px;
     }
   }
 }

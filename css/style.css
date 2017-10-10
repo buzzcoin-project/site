@@ -437,11 +437,33 @@ body.mobile-nav-active {
   margin-left: 80px;
   line-height: 24px; }
 
-.steps {
-  padding: 50px; }
-
-.step {
-  padding: 25px; }
+#get-started,
+#coin-control {
+  margin: 80px auto !important; }
+  #get-started .container,
+  #coin-control .container {
+    max-width: 900px !important;
+    margin: 0 auto; }
+  #get-started h4,
+  #coin-control h4 {
+    text-align: center;
+    line-height: 24px; }
+  #get-started .video-box,
+  #coin-control .video-box {
+    max-width: 900px !important;
+    height: 200px; }
+    @media (min-width: 425px) {
+      #get-started .video-box,
+      #coin-control .video-box {
+        height: 250px; } }
+    @media (min-width: 768px) {
+      #get-started .video-box,
+      #coin-control .video-box {
+        height: 400px; } }
+    @media (min-width: 900px) {
+      #get-started .video-box,
+      #coin-control .video-box {
+        height: 450px; } }
 
 /* exchanges Section
   --------------------------------*/
@@ -535,30 +557,41 @@ body.mobile-nav-active {
   .blog__item .actions {
     margin-bottom: 24px; }
 
-#get-started {
+#get-started,
+#coin-control {
   margin: 80px auto !important; }
-  #get-started .container {
+  #get-started .container,
+  #coin-control .container {
     max-width: 900px !important;
     margin: 0 auto; }
-  #get-started h4 {
+  #get-started h4,
+  #coin-control h4 {
     text-align: center;
     line-height: 24px; }
-  #get-started .video-box {
+  #get-started .video-box,
+  #coin-control .video-box {
     max-width: 900px !important;
     height: 200px; }
     @media (min-width: 425px) {
-      #get-started .video-box {
+      #get-started .video-box,
+      #coin-control .video-box {
         height: 250px; } }
     @media (min-width: 768px) {
-      #get-started .video-box {
+      #get-started .video-box,
+      #coin-control .video-box {
         height: 400px; } }
+    @media (min-width: 900px) {
+      #get-started .video-box,
+      #coin-control .video-box {
+        height: 450px; } }
 
 .section-title {
   font-size: 32px;
   color: #111;
   text-transform: uppercase;
   text-align: center;
-  font-weight: 700; }
+  font-weight: 700;
+  padding-top: 48px; }
 
 .section-description {
   text-align: center;
