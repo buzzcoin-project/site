@@ -345,9 +345,29 @@ body.mobile-nav-active {
   margin-top: 64px; }
   #about .about-intro {
     margin-bottom: 48px; }
-  #about .about-container {
-    background: url(../img/about-img.jpg) left top no-repeat;
-    margin-top: 48px; }
+  #about .pane {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+    @media (min-width: 1024px) {
+      #about .pane {
+        flex-direction: row; } }
+  #about .left {
+    flex: 1; }
+    #about .left .section-description {
+      text-align: left; }
+  #about img {
+    max-width: 284px;
+    max-height: 170px; }
+    @media (min-width: 450px) {
+      #about img {
+        max-width: 426px;
+        max-height: 255px; } }
+    @media (min-width: 768px) {
+      #about img {
+        max-width: 569px;
+        max-height: 340px; } }
   #about .about-content {
     background: #fff; }
   #about .about-title {

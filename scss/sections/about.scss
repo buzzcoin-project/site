@@ -6,9 +6,37 @@
     margin-bottom: 48px;
   }
 
-  .about-container {
-    background: url(../img/about-img.jpg) left top no-repeat;
-    margin-top: 48px;
+  .pane {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    @media (min-width: 1024px) {
+      flex-direction: row;
+    }
+  }
+
+  .left {
+    flex: 1;
+    .section-description {
+      text-align: left;
+    }
+  }
+
+  img {
+    max-width: 284px;
+    max-height: 170px;
+
+    @media (min-width: 450px) {
+      max-width: 426px;
+      max-height: 255px;
+    }
+
+    @media (min-width: 768px) {
+      max-width: 569px;
+      max-height: 340px;
+    }
   }
 
   .about-content {
