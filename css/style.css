@@ -443,7 +443,11 @@ body.mobile-nav-active {
 #get-started,
 #coin-control {
   margin: 80px auto !important;
+  color: #333333;
   font-size: 120%; }
+  #get-started .section-title-divider,
+  #coin-control .section-title-divider {
+    background-color: #333333; }
   #get-started:first-of-type,
   #coin-control:first-of-type {
     margin: 0px auto 80px auto !important; }
@@ -461,7 +465,8 @@ body.mobile-nav-active {
   #get-started h4,
   #coin-control h4 {
     text-align: center;
-    line-height: 24px; }
+    line-height: 24px;
+    color: #333333; }
   #get-started .video-box,
   #coin-control .video-box {
     max-width: 900px !important;
@@ -577,7 +582,11 @@ body.mobile-nav-active {
 #get-started,
 #coin-control {
   margin: 80px auto !important;
+  color: #333333;
   font-size: 120%; }
+  #get-started .section-title-divider,
+  #coin-control .section-title-divider {
+    background-color: #333333; }
   #get-started:first-of-type,
   #coin-control:first-of-type {
     margin: 0px auto 80px auto !important; }
@@ -595,7 +604,8 @@ body.mobile-nav-active {
   #get-started h4,
   #coin-control h4 {
     text-align: center;
-    line-height: 24px; }
+    line-height: 24px;
+    color: #333333; }
   #get-started .video-box,
   #coin-control .video-box {
     max-width: 900px !important;
