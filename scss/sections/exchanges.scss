@@ -1,7 +1,6 @@
 /* exchanges Section
   --------------------------------*/
 #exchanges {
-  background: rgba(0, 0, 0, 0.85);
   padding: 64px 0;
   text-align: center;
   width: 100%;
@@ -28,13 +27,13 @@
 
 .exchanges {
   &-title {
-    color: #fff;
+    color: black;
     font-size: 28px;
     font-weight: 700;
   }
 
   &-text {
-    color: #fff;
+    color: black;
   }
 
   &-btn-container {
@@ -53,8 +52,8 @@
     border-radius: 2px;
     transition: 0.5s;
     margin: 10px;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid black;
+    color: black;
 
     &:hover {
       background: #ffdd55;

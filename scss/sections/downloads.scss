@@ -1,61 +1,88 @@
 /* downloads Section
 --------------------------------*/
 #downloads {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.9),
-      rgba(255, 255, 255, 0.9)
-    ),
-    url("../img/downloads-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+    url("../img/downloads.jpg") fixed center center;
+  color: white;
   background-size: cover;
   padding: 80px 0 60px 0;
-}
+  margin-top: 48px;
 
-#downloads .service-item,
-#about .service-item {
-  margin: 0 auto 20px auto;
-}
+  .section-title {
+    color: white;
+  }
 
-#downloads .service-icon,
-#about .service-icon {
-  float: left;
-  background: #ffdd55;
-  padding: 16px;
-  border-radius: 50%;
-  transition: 0.5s;
-  border: 1px solid #ffdd55;
-}
+  .service-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
-#downloads .service-icon i,
-#about .service-icon i {
-  color: #fff;
-  font-size: 24px;
-}
+    @media (min-width: 768px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
 
-#downloads .service-item:hover .service-icon,
-#about .service-item:hover .service-icon {
-  background: #fff;
-}
+    .service-item {
+      margin: 12px;
+      padding: 18px;
+      background: rgba(0, 0, 0, 0.25);
+      border: 1px solid $accent-color;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 280px;
 
-#downloads .service-item:hover .service-icon i,
-#about .service-item:hover .service-icon i {
-  color: #ffdd55;
-}
+      &:hover {
+        background: rgba(255, 255, 255, 0.25);
+      }
 
-#downloads .service-title,
-#about .service-title {
-  margin-left: 80px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-}
+      @media (min-width: 768px) {
+        justify-content: space-around;
+      }
 
-#downloads .service-title a,
-#about .service-title a {
-  color: #111;
-}
+      .service-icon {
+        background: #ffdd55;
+        padding: 16px;
+        border-radius: 50%;
+        transition: 0.5s;
+        border: 1px solid #ffdd55;
 
-#downloads .service-description,
-#about .service-description {
-  margin-left: 80px;
-  line-height: 24px;
+        &:hover {
+          background: #fff;
+        }
+
+        i {
+          color: black;
+          font-size: 24px;
+
+          &:hover {
+            color: #ffdd55;
+          }
+        }
+      }
+
+      &__body {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        width: 100%;
+
+        .service-title {
+          font-weight: 700;
+          text-transform: uppercase;
+          color: white;
+          margin-bottom: 8px;
+        }
+
+        .service-description {
+          line-height: 24px;
+          margin-bottom: 8px;
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
 }

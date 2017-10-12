@@ -382,8 +382,8 @@ body.mobile-nav-active {
 /* community Section
 --------------------------------*/
 #community {
-  background: #f6f6f6;
-  padding-top: 64px; }
+  background-color: #ffdd55;
+  padding: 64px 0 128px 0; }
 
 #community .container {
   max-width: 600px; }
@@ -411,51 +411,65 @@ body.mobile-nav-active {
 /* downloads Section
 --------------------------------*/
 #downloads {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/downloads-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../img/downloads.jpg") fixed center center;
+  color: white;
   background-size: cover;
-  padding: 80px 0 60px 0; }
-
-#downloads .service-item,
-#about .service-item {
-  margin: 0 auto 20px auto; }
-
-#downloads .service-icon,
-#about .service-icon {
-  float: left;
-  background: #ffdd55;
-  padding: 16px;
-  border-radius: 50%;
-  transition: 0.5s;
-  border: 1px solid #ffdd55; }
-
-#downloads .service-icon i,
-#about .service-icon i {
-  color: #fff;
-  font-size: 24px; }
-
-#downloads .service-item:hover .service-icon,
-#about .service-item:hover .service-icon {
-  background: #fff; }
-
-#downloads .service-item:hover .service-icon i,
-#about .service-item:hover .service-icon i {
-  color: #ffdd55; }
-
-#downloads .service-title,
-#about .service-title {
-  margin-left: 80px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  text-transform: uppercase; }
-
-#downloads .service-title a,
-#about .service-title a {
-  color: #111; }
-
-#downloads .service-description,
-#about .service-description {
-  margin-left: 80px;
-  line-height: 24px; }
+  padding: 80px 0 60px 0;
+  margin-top: 48px; }
+  #downloads .section-title {
+    color: white; }
+  #downloads .service-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    @media (min-width: 768px) {
+      #downloads .service-items {
+        flex-direction: row;
+        flex-wrap: wrap; } }
+    #downloads .service-items .service-item {
+      margin: 12px;
+      padding: 18px;
+      background: rgba(0, 0, 0, 0.25);
+      border: 1px solid #ffdd55;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 280px; }
+      #downloads .service-items .service-item:hover {
+        background: rgba(255, 255, 255, 0.25); }
+      @media (min-width: 768px) {
+        #downloads .service-items .service-item {
+          justify-content: space-around; } }
+      #downloads .service-items .service-item .service-icon {
+        background: #ffdd55;
+        padding: 16px;
+        border-radius: 50%;
+        transition: 0.5s;
+        border: 1px solid #ffdd55; }
+        #downloads .service-items .service-item .service-icon:hover {
+          background: #fff; }
+        #downloads .service-items .service-item .service-icon i {
+          color: black;
+          font-size: 24px; }
+          #downloads .service-items .service-item .service-icon i:hover {
+            color: #ffdd55; }
+      #downloads .service-items .service-item__body {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        width: 100%; }
+        #downloads .service-items .service-item__body .service-title {
+          font-weight: 700;
+          text-transform: uppercase;
+          color: white;
+          margin-bottom: 8px; }
+        #downloads .service-items .service-item__body .service-description {
+          line-height: 24px;
+          margin-bottom: 8px;
+          margin-bottom: 8px; }
 
 .alt-bg {
   background-color: #ffdd55; }
@@ -507,7 +521,6 @@ body.mobile-nav-active {
 /* exchanges Section
   --------------------------------*/
 #exchanges {
-  background: rgba(0, 0, 0, 0.85);
   padding: 64px 0;
   text-align: center;
   width: 100%; }
@@ -525,12 +538,12 @@ body.mobile-nav-active {
         flex-direction: column; } }
 
 .exchanges-title {
-  color: #fff;
+  color: black;
   font-size: 28px;
   font-weight: 700; }
 
 .exchanges-text {
-  color: #fff; }
+  color: black; }
 
 .exchanges-btn-container {
   text-align: center;
@@ -547,8 +560,8 @@ body.mobile-nav-active {
   border-radius: 2px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #fff;
-  color: #fff; }
+  border: 2px solid black;
+  color: black; }
   .exchanges-btn:hover {
     background: #ffdd55;
     border: 2px solid #ffdd55; }
@@ -556,7 +569,6 @@ body.mobile-nav-active {
 /* Roadmap Section
   --------------------------------*/
 #roadmap {
-  background: #f6f6f6;
   padding: 64px 0;
   height: auto; }
 
