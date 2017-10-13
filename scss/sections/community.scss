@@ -3,6 +3,10 @@
 #community {
   background-color: #ffdd55;
   padding: 64px 0 128px 0;
+
+  .section-title-divider  {
+    background: $heading-color !important;
+  }
 }
 
 #community .container {
