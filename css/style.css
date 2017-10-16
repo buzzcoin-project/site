@@ -447,7 +447,7 @@ body.mobile-nav-active {
           justify-content: space-around; } }
       #downloads .service-items .service-item .service-icon {
         background: #ffdd55;
-        padding: 16px;
+        padding: 24px;
         border-radius: 50%;
         transition: 0.5s;
         border: 1px solid #ffdd55; }
