@@ -130,7 +130,7 @@ jQuery(document).ready(function($) {
 
   // RSS feed pull from medium.com
   $("#rssFeed").rss("https://medium.com/feed/buzzcoin/", {
-    limit: 5,
+    limit: 3,
     tokens: {
       modifiedBody: function(entry, tokens) {
         var length = 500;
