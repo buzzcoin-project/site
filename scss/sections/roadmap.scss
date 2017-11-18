@@ -7,25 +7,8 @@
   .section-title {
     padding-top: 12px;
   }
-}
 
-.progress-bar {
-  background-color: #ffdd55;
-}
-
-@media (max-width: 768px) {
-  .roadmap-item {
-    .section-title {
-      font-size: 24px;
-    }
-    &:not(:first-of-type) {
-      margin: 48px 0;
-    }
-  }
-}
-
-@media (min-width: 768px) {
-  .roadmap-item {
-    min-width: 50%;
+  .roadmap-image img {
+    width: 100%;
   }
 }
