@@ -497,9 +497,11 @@ body.mobile-nav-active {
     margin: 24px auto 8px auto; }
   .guide-step .section-title-divider {
     margin: 24px 0; }
-  .guide-step li a {
-    color: darkblue;
+  .guide-step a {
+    color: darkcyan;
     font-weight: 700; }
+  .guide-step a:visited {
+    color: darkred; }
 
 /* exchanges Section
   --------------------------------*/
@@ -620,9 +622,11 @@ body.mobile-nav-active {
     margin: 24px auto 8px auto; }
   .guide-step .section-title-divider {
     margin: 24px 0; }
-  .guide-step li a {
-    color: darkblue;
+  .guide-step a {
+    color: darkcyan;
     font-weight: 700; }
+  .guide-step a:visited {
+    color: darkred; }
 
 .section-title {
   font-size: 32px;

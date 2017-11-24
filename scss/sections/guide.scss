@@ -32,11 +32,12 @@
     margin: 24px 0;
   }
 
-  ul {
+  a {
+    color: darkcyan;
+    font-weight: 700;
   }
 
-  li a {
-    color: darkblue;
-    font-weight: 700;
+  a:visited {
+    color: darkred;
   }
 }
