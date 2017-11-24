@@ -133,7 +133,7 @@ jQuery(document).ready(function($) {
     limit: 3,
     tokens: {
       modifiedBody: function(entry, tokens) {
-        var length = 500;
+        var length = 360;
         if (window.innerWidth && window.innerWidth < 768) {
           length = 240;
         }

@@ -8,6 +8,12 @@
     padding-top: 12px;
   }
 
+  .section-description,
+  .roadmap-image {
+    max-width: 768px;
+    margin: 24px auto;
+  }
+
   .roadmap-image img {
     width: 100%;
   }
