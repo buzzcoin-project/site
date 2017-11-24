@@ -478,49 +478,28 @@ body.mobile-nav-active {
 .alt-bg {
   background-color: #ffdd55; }
 
-#get-started,
-#coin-control {
-  margin: 80px auto !important;
-  color: #333333;
-  font-size: 120%; }
-  #get-started .section-title-divider,
-  #coin-control .section-title-divider {
-    background-color: #333333; }
-  #get-started:first-of-type,
-  #coin-control:first-of-type {
-    margin: 0px auto 80px auto !important; }
-  #get-started:last-of-type,
-  #coin-control:last-of-type {
-    margin: 80px auto 0 auto !important;
-    padding-bottom: 80px; }
-  #get-started a,
-  #coin-control a {
-    color: white; }
-  #get-started .container,
-  #coin-control .container {
-    max-width: 900px !important;
-    margin: 0 auto; }
-  #get-started h4,
-  #coin-control h4 {
-    text-align: center;
-    line-height: 24px;
-    color: #333333; }
-  #get-started .video-box,
-  #coin-control .video-box {
-    max-width: 900px !important;
-    height: 200px; }
-    @media (min-width: 425px) {
-      #get-started .video-box,
-      #coin-control .video-box {
-        height: 250px; } }
-    @media (min-width: 768px) {
-      #get-started .video-box,
-      #coin-control .video-box {
-        height: 400px; } }
-    @media (min-width: 900px) {
-      #get-started .video-box,
-      #coin-control .video-box {
-        height: 450px; } }
+.guide-step {
+  max-width: 768px;
+  margin-bottom: 48px; }
+  .guide-step .video-box {
+    max-width: 520px; }
+  .guide-step h5,
+  .guide-step h4,
+  .guide-step .section-title,
+  .guide-step .section-description {
+    text-align: left;
+    line-height: 32px; }
+  .guide-step h4,
+  .guide-step h5 {
+    font-weight: 700;
+    margin: 12px 0; }
+  .guide-step h4 {
+    margin: 24px auto 8px auto; }
+  .guide-step .section-title-divider {
+    margin: 24px 0; }
+  .guide-step li a {
+    color: darkblue;
+    font-weight: 700; }
 
 /* exchanges Section
   --------------------------------*/
@@ -622,49 +601,28 @@ body.mobile-nav-active {
 .alt-bg {
   background-color: #ffdd55; }
 
-#get-started,
-#coin-control {
-  margin: 80px auto !important;
-  color: #333333;
-  font-size: 120%; }
-  #get-started .section-title-divider,
-  #coin-control .section-title-divider {
-    background-color: #333333; }
-  #get-started:first-of-type,
-  #coin-control:first-of-type {
-    margin: 0px auto 80px auto !important; }
-  #get-started:last-of-type,
-  #coin-control:last-of-type {
-    margin: 80px auto 0 auto !important;
-    padding-bottom: 80px; }
-  #get-started a,
-  #coin-control a {
-    color: white; }
-  #get-started .container,
-  #coin-control .container {
-    max-width: 900px !important;
-    margin: 0 auto; }
-  #get-started h4,
-  #coin-control h4 {
-    text-align: center;
-    line-height: 24px;
-    color: #333333; }
-  #get-started .video-box,
-  #coin-control .video-box {
-    max-width: 900px !important;
-    height: 200px; }
-    @media (min-width: 425px) {
-      #get-started .video-box,
-      #coin-control .video-box {
-        height: 250px; } }
-    @media (min-width: 768px) {
-      #get-started .video-box,
-      #coin-control .video-box {
-        height: 400px; } }
-    @media (min-width: 900px) {
-      #get-started .video-box,
-      #coin-control .video-box {
-        height: 450px; } }
+.guide-step {
+  max-width: 768px;
+  margin-bottom: 48px; }
+  .guide-step .video-box {
+    max-width: 520px; }
+  .guide-step h5,
+  .guide-step h4,
+  .guide-step .section-title,
+  .guide-step .section-description {
+    text-align: left;
+    line-height: 32px; }
+  .guide-step h4,
+  .guide-step h5 {
+    font-weight: 700;
+    margin: 12px 0; }
+  .guide-step h4 {
+    margin: 24px auto 8px auto; }
+  .guide-step .section-title-divider {
+    margin: 24px 0; }
+  .guide-step li a {
+    color: darkblue;
+    font-weight: 700; }
 
 .section-title {
   font-size: 32px;

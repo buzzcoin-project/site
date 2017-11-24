@@ -2,54 +2,41 @@
   background-color: $accent-color;
 }
 
-#get-started,
-#coin-control {
-  margin: 80px auto !important;
-  color: $heading-color;
+.guide-step {
+  max-width: 768px;
+  margin-bottom: 48px;
 
-  .section-title-divider {
-    background-color: $heading-color;
+  .video-box {
+    max-width: 520px;
   }
 
-  &:first-of-type {
-    margin: 0px auto 80px auto !important;
+  h5,
+  h4,
+  .section-title,
+  .section-description {
+    text-align: left;
+    line-height: 32px;
   }
 
-  &:last-of-type {
-    margin: 80px auto 0 auto !important;
-    padding-bottom: 80px;
-  }
-
-  a {
-    color: white;
-  }
-
-  font-size: 120%;
-
-  .container {
-    max-width: 900px !important;
-    margin: 0 auto;
+  h4,
+  h5 {
+    font-weight: 700;
+    margin: 12px 0;
   }
 
   h4 {
-    text-align: center;
-    line-height: 24px;
-    color: $heading-color;
+    margin: 24px auto 8px auto;
   }
 
-  .video-box {
-    max-width: 900px !important;
-    height: 200px;
+  .section-title-divider {
+    margin: 24px 0;
+  }
 
-    @media (min-width: 425px) {
-      height: 250px;
-    }
-    @media (min-width: 768px) {
-      height: 400px;
-    }
+  ul {
+  }
 
-    @media (min-width: 900px) {
-      height: 450px;
-    }
+  li a {
+    color: darkblue;
+    font-weight: 700;
   }
 }

@@ -61,73 +61,126 @@
 </head>
 
 <body>
-  <div id="preloader"></div>
-  <div class="alt-bg">
+  <header id="header">
+    <div class="container">
 
+      <div id="logo" class="pull-left">
+        <a href="index.html">
+          <img src="img/logo.png" alt="" title="" /></img>
+        </a>
+      </div>
 
-    <header id="header">
-      <div class="container">
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li>
+            <a href="index.html">HOME</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- #nav-menu-container -->
+    </div>
+  </header>
 
-        <div id="logo" class="pull-left">
-          <a href="index.html">
-            <img src="img/logo.png" alt="" title="" /></img>
-          </a>
-        </div>
-
-        <nav id="nav-menu-container">
-          <ul class="nav-menu">
+  <section id="get-started">
+    <div class="container wow fadeInUp guide-step">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">GETTING STARTED Guide</h3>
+          <h4>Below is a step by step guide on how to get set up with the BUZZ wallet and begin staking your BUZZ coins!</h4>
+          <div class="section-title-divider"></div>
+          <h5 class="section-description">Contents</h5>
+          <ul>
             <li>
-              <a href="index.html">HOME</a>
+              <a href="#download-wallet">Download Wallet</a>
             </li>
             <li>
-              <a href="#get-started">Getting Started</a>
+              <a href="#download-bootstrap">Download Bootstrap</a>
+            </li>
+            <li>
+              <a href="#install">Installation</a>
             </li>
             <li>
               <a href="#coin-control">Coin Control</a>
             </li>
           </ul>
-        </nav>
-        <!-- #nav-menu-container -->
-      </div>
-    </header>
-
-
-    <section id="get-started">
-      <div class="container wow fadeInUp">
-        <div class="row">
-          <div class="col-md-12">
-            <h3 class="section-title">GETTING STARTED WITH BUZZ!</h3>
-            <h4>Below is a step by step guide on how to get set up with the BUZZ wallet and begin staking your BUZZ coins!</h4>
-            <div class="section-title-divider"></div>
-            <p class="section-description">Thank you
-              <a href="https://www.youtube.com/channel/UCX5w014JytC7qG1y4VoW-hA">Bitcoin Guvnor</a> for the great video!</p>
-            <div class="video-box">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/hnTx3uY2rUk" frameborder="0" allowfullscreen></iframe>
-            </div>
-
-          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="coin-control">
-      <div class="container wow fadeInUp">
-        <div class="row">
-          <div class="col-md-12">
-            <h3 class="section-title">MAXIMIZE YOUR GAINS WITH COIN CONTROL!</h3>
-            <h4>Below is a step by step guide on how to ensure you are maximizing your gains using the Coin Control feature.</h4>
-            <div class="section-title-divider"></div>
-            <p class="section-description">Thank you
-              <a href="https://www.youtube.com/channel/UCjr7gR4CTCCveQAjtUdehEw">Jesse James</a> for the great video!</p>
-            <div class="video-box">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HUw2NkRpI-A" frameborder="0" allowfullscreen></iframe>
-            </div>
 
+  <section id="install">
+    <div class="container wow fadeInUp guide-step">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">Installation</h3>
+          <h4>Below is a technical setup guide from a community member
+            <a href="https://www.youtube.com/channel/UCX5w014JytC7qG1y4VoW-hA">Bitcoin Guvnor</a>. The video will walk you through how to set up the wallet on your
+            <strong>Windows</strong> device. Notes are appended about Linux and OS X Installation.</h4>
+          <div class="section-title-divider"></div>
+          <h4>
+            <strong>Before You Get Started, Please Read...</strong>
+          </h4>
+          <ul>
+            <li>We maintain an
+              <a target="_blank" href="https://docs.google.com/document/d/1KjnJIIF1MErgeyPN3RGBF95_7ob5WwKwb7naPcyb-js/edit?usp=sharing">updated FAQ here</a> with technical setup specific help.
+            </li>
+            <li>
+              <strong>Windows:</strong> antivirus complains about IRC Node Communication. Bug ticket
+              <a target="_blank" href="https://trello.com/c/D46YSu3y/54-windows-antivirus-fix-release">in progress here.</a>
+            </li>
+            <li>
+              <strong>Windows</strong> antivirus complains about IRC Node Communication. Bug ticket
+              <a target="_blank" href="https://trello.com/c/D46YSu3y/54-windows-antivirus-fix-release">in progress here.</a>
+            </li>
+            <li>
+              <strong>OS X</strong> not working on 10.10 or 10.11. Bug ticket in progress here.
+            </li>
+          </ul>
+
+          <h4>
+            <strong>Installation Videos</strong>
+          </h4>
+          <h5>
+            <strong>Windows</strong>
+          </h5>
+          <div class="video-box">
+            <iframe height="320px" width="100%" src="https://www.youtube.com/embed/hnTx3uY2rUk" frameborder="0" allowfullscreen></iframe>
           </div>
+          <h5>
+            <strong>OS X</strong>
+          </h5>
+          <p>View installation
+            <a href="https://medium.com/buzzcoin/official-os-x-wallet-release-58566967c04f" target="_blank">blog post</a>.</p>
+          <p>Video coming soon... </p>
+          <h5>
+            <strong>Linux</strong>
+          </h5>
+          <p>Linux compilation notes are available on our
+            <a href="https://github.com/buzzcoin-project/BUZZ/tree/master/doc"
+              target="_blank">Official BUZZ Github Repo</a>, as are other platform compilation notes.</p>
         </div>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
+
+  <section id="coin-control">
+    <div class="container wow fadeInUp guide-step">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">MAXIMIZE YOUR GAINS WITH COIN CONTROL!</h3>
+          <h4>Below is a step by step guide on how to ensure you are maximizing your gains using the Coin Control feature.</h4>
+          <div class="section-title-divider"></div>
+          <p class="section-description">Thank you
+            <a href="https://www.youtube.com/channel/UCjr7gR4CTCCveQAjtUdehEw">Jesse James</a> for the great video!</p>
+          <div class="video-box">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HUw2NkRpI-A" frameborder="0" allowfullscreen></iframe>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
 
   <footer id="footer">
     <div class="container">
@@ -156,7 +209,7 @@
     <i class="fa fa-chevron-up"></i>
   </a>
 
-  <!-- Required JavaScript Libraries -->
+  <!-- Required sScript Libraries -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
   <script src="vendor/superfish/hoverIntent.js"></script>
