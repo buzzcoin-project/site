@@ -338,6 +338,10 @@ body.mobile-nav-active {
 #about {
   background: #fff;
   margin-top: 64px; }
+  #about a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline; }
   #about .api-data-divs {
     margin: 48px 0; }
     #about .api-data-divs .coinmarketcap-currency-widget {
