@@ -2,6 +2,14 @@
   background: #fff;
   margin-top: 64px;
 
+  .api-data-divs {
+    margin: 48px 0;
+
+    .coinmarketcap-currency-widget {
+      max-width: 480px;
+    }
+  }
+
   .about-intro {
     margin-bottom: 48px;
   }
@@ -33,11 +41,7 @@
   }
 
   .left {
-    flex: 1;
-
-    .section-description {
-      text-align: left;
-    }
+    text-align: left;
   }
 
   .about-content {
