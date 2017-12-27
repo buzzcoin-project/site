@@ -7,7 +7,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #fff;
+  background: #222;
   color: #666666;
   font-family: "Open Sans", sans-serif; }
 
@@ -18,7 +18,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #ffdd56;
+  color: white;
   outline: none;
   text-decoration: none; }
 
@@ -114,20 +114,6 @@ h6 {
           display: block; } }
   #hero .rotating > .animated {
     display: inline-block; }
-  #hero .btn.about {
-    background: none;
-    border: 2px solid #ffdd55;
-    color: #ffdd55; }
-    #hero .btn.about:hover {
-      background: rgba(255, 255, 255, 0.25);
-      border: 2px solid #rgba 255, 255, 255, 0.25;
-      color: white; }
-  #hero .btn.start {
-    border: 2px solid #ffdd55;
-    color: black; }
-    #hero .btn.start:hover {
-      background: #ffdd55;
-      border: 2px solid #ffdd55; }
 
 /*--------------------------------------------------------------
 # Header
@@ -338,18 +324,23 @@ body.mobile-nav-active {
 # Sections
 --------------------------------------------------------------*/
 #about {
-  background: #fff;
-  margin-top: 64px; }
-  #about a {
-    color: blue;
-    font-weight: bold;
-    text-decoration: underline; }
-  #about .api-data-divs {
-    margin: 48px 0; }
-    #about .api-data-divs .coinmarketcap-currency-widget {
-      max-width: 480px; }
+  background: #222;
+  padding-top: 64px;
+  max-height: 80vh; }
+  #about .section-title {
+    color: white; }
   #about .about-intro {
-    margin-bottom: 48px; }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin: 80px auto; }
+  #about .section-description {
+    color: white; }
+    #about .section-description.quote {
+      line-height: 38px;
+      max-width: 600px; }
   @media (min-width: 1024px) {
     #about .section-title-divider {
       margin-bottom: 60px; } }
@@ -384,6 +375,48 @@ body.mobile-nav-active {
       margin-top: 48px; } }
   #about #blog .section-title {
     text-align: left; }
+
+#energy,
+#bee {
+  color: white;
+  background-size: cover;
+  min-height: 60vh;
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  #energy .col-md-12,
+  #bee .col-md-12 {
+    max-width: 624px;
+    background: rgba(0, 0, 0, 0.15);
+    padding: 0px 24px 24px 24px; }
+    #energy .col-md-12 .section-title,
+    #energy .col-md-12 p.section-description,
+    #energy .col-md-12 .actions,
+    #bee .col-md-12 .section-title,
+    #bee .col-md-12 p.section-description,
+    #bee .col-md-12 .actions {
+      color: white;
+      text-align: right; }
+    #energy .col-md-12 .actions,
+    #bee .col-md-12 .actions {
+      padding: 0; }
+      #energy .col-md-12 .actions a,
+      #bee .col-md-12 .actions a {
+        margin: 0; }
+
+#bee {
+  background: url(../img/bee.jpg) top center fixed; }
+  #bee .col-md-12 .section-title,
+  #bee .col-md-12 p.section-description,
+  #bee .col-md-12 .actions {
+    text-align: left; }
+
+#energy {
+  background: url(../img/energy.jpg) top center fixed; }
+  #energy .col-md-12 {
+    float: right; }
 
 /* community Section
 --------------------------------*/
@@ -527,6 +560,11 @@ body.mobile-nav-active {
     border-bottom: 2px solid darkred;
     color: darkred;
     padding: 12px 0; }
+  #exchanges .api-data-divs {
+    margin: 48px 0; }
+    #exchanges .api-data-divs .coinmarketcap-currency-widget {
+      max-width: 480px;
+      margin: 0 auto; }
   #exchanges .container {
     display: flex;
     align-items: center;
@@ -680,14 +718,31 @@ body.mobile-nav-active {
     font-size: 13px;
     color: #ccc; }
 
-.btn {
+.btn,
+.actions a {
   background: #ffdd55;
   border: 2px solid #ffdd55;
   color: #fff; }
-  .btn:hover {
-    background: #fff7d5;
-    border: 2px solid #d5aa00;
-    color: #d5aa00; }
+  .btn:hover,
+  .actions a:hover {
+    background: transparent;
+    color: white; }
+
+.btn.primary {
+  background: none;
+  border: 2px solid #ffdd55;
+  color: #ffdd55; }
+  .btn.primary:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border: 2px solid #rgba 255, 255, 255, 0.25;
+    color: white; }
+
+.btn.secondary {
+  border: 2px solid #ffdd55;
+  color: black; }
+  .btn.secondary:hover {
+    background: #ffdd55;
+    border: 2px solid #ffdd55; }
 
 .actions a {
   font-family: "Open Sans", sans-serif;

@@ -22,6 +22,15 @@
     padding: 12px 0;
   }
 
+  .api-data-divs {
+    margin: 48px 0;
+
+    .coinmarketcap-currency-widget {
+      max-width: 480px;
+      margin: 0 auto;
+    }
+  }
+
   .container {
     display: flex;
     align-items: center;

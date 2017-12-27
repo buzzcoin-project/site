@@ -1,23 +1,29 @@
 #about {
-  background: #fff;
-  margin-top: 64px;
+  background: #222;
+  padding-top: 64px;
+  max-height: 80vh;
 
-  a {
-    color: blue;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-
-  .api-data-divs {
-    margin: 48px 0;
-
-    .coinmarketcap-currency-widget {
-      max-width: 480px;
-    }
+  .section-title {
+    color: white;
   }
 
   .about-intro {
-    margin-bottom: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+
+    margin: 80px auto;
+  }
+
+  .section-description {
+    color: white;
+
+    &.quote {
+      line-height: 38px;
+      max-width: 600px;
+    }
   }
 
   .section-title-divider {
