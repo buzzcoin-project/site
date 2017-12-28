@@ -13,9 +13,13 @@
 @import "./sections/blog.scss";
 @import "./sections/guide.scss";
 
+.section-title,
+.section-description {
+  color: white;
+}
+
 .section-title {
   font-size: 32px;
-  color: #111;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;

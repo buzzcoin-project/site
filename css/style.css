@@ -423,6 +423,9 @@ body.mobile-nav-active {
 #community {
   background-color: #ffdd55;
   padding: 64px 0 128px 0; }
+  #community .section-title,
+  #community .section-description {
+    color: black; }
   #community .section-title-divider  {
     background: #333333 !important; }
 
@@ -614,11 +617,16 @@ body.mobile-nav-active {
   #roadmap .section-title {
     padding-top: 12px; }
   #roadmap .section-description,
-  #roadmap .roadmap-image {
+  #roadmap ul {
     max-width: 768px;
     margin: 24px auto; }
-  #roadmap .roadmap-image img {
-    width: 100%; }
+    #roadmap .section-description a,
+    #roadmap ul a {
+      color: #ffdd55;
+      font-weight: bold; }
+  #roadmap ul {
+    font-size: 18px;
+    color: #ffdd55; }
 
 #rssFeed img {
   width: 100%; }
@@ -674,9 +682,12 @@ body.mobile-nav-active {
   .guide-step a:visited {
     color: darkred; }
 
+.section-title,
+.section-description {
+  color: white; }
+
 .section-title {
   font-size: 32px;
-  color: #111;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
