@@ -552,7 +552,11 @@ body.mobile-nav-active {
 #exchanges {
   padding: 64px 0;
   text-align: center;
-  width: 100%; }
+  width: 100%;
+  background: white; }
+  #exchanges .section-title,
+  #exchanges .section-description {
+    color: black; }
   #exchanges a {
     text-align: center; }
   @media (max-width: 768px) {
