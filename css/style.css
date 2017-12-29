@@ -87,6 +87,10 @@ h6 {
   @media (min-width: 768px) {
     #hero {
       height: 85vh; } }
+  #hero .actions a.secondary {
+    font-size: 16px; }
+    #hero .actions a.secondary span {
+      font-size: 12px; }
   #hero .hero-logo {
     margin: 20px auto;
     max-width: 300px; }
@@ -202,8 +206,9 @@ h6 {
 /* Nav Meu Container */
 #nav-menu-container {
   float: right;
-  margin: 5px 0; }
-  @media (max-width: 768px) {
+  margin: 5px 0;
+  max-width: 768px; }
+  @media (max-width: 900px) {
     #nav-menu-container {
       display: none; } }
 
@@ -254,7 +259,7 @@ h6 {
   outline: none; }
   #mobile-nav-toggle i {
     color: #fff; }
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     #mobile-nav-toggle {
       display: inline; } }
 
@@ -742,6 +747,9 @@ body.mobile-nav-active {
   .actions a:hover {
     background: transparent;
     color: white; }
+  .btn span,
+  .actions a span {
+    font-size: 12px; }
 
 .btn.primary {
   background: none;

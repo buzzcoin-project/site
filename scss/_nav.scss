@@ -66,7 +66,9 @@
 #nav-menu-container {
   float: right;
   margin: 5px 0;
-  @media (max-width: 768px) {
+  max-width: 768px;
+
+  @media (max-width: 900px) {
     display: none;
   }
 }
@@ -134,7 +136,7 @@
     color: #fff;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     display: inline;
   }
 }
