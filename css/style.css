@@ -7,7 +7,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #fff;
+  background: #222;
   color: #666666;
   font-family: "Open Sans", sans-serif; }
 
@@ -18,7 +18,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #ffdd56;
+  color: white;
   outline: none;
   text-decoration: none; }
 
@@ -87,6 +87,10 @@ h6 {
   @media (min-width: 768px) {
     #hero {
       height: 85vh; } }
+  #hero .actions a.secondary {
+    font-size: 16px; }
+    #hero .actions a.secondary span {
+      font-size: 12px; }
   #hero .hero-logo {
     margin: 20px auto;
     max-width: 300px; }
@@ -95,37 +99,25 @@ h6 {
   #hero .hero-container {
     background: rgba(0, 0, 0, 0.6);
     display: table-cell;
-    margin: 0;
     padding: 0;
     text-align: center;
     vertical-align: middle; }
   #hero h2 {
     color: white;
     margin: 48px auto 24px auto;
-    font-weight: 100; }
+    font-weight: 100;
+    max-width: 768px;
+    line-height: 42px;
+    margin: 24px auto; }
     @media (max-width: 768px) {
       #hero h2 {
         font-size: 24px;
-        line-height: 26px;
+        line-height: 32px;
         margin-bottom: 30px; }
         #hero h2 .rotating {
           display: block; } }
   #hero .rotating > .animated {
     display: inline-block; }
-  #hero .btn.about {
-    background: none;
-    border: 2px solid #ffdd55;
-    color: #ffdd55; }
-    #hero .btn.about:hover {
-      background: rgba(255, 255, 255, 0.25);
-      border: 2px solid #rgba 255, 255, 255, 0.25;
-      color: white; }
-  #hero .btn.start {
-    border: 2px solid #ffdd55;
-    color: black; }
-    #hero .btn.start:hover {
-      background: #ffdd55;
-      border: 2px solid #ffdd55; }
 
 /*--------------------------------------------------------------
 # Header
@@ -214,8 +206,9 @@ h6 {
 /* Nav Meu Container */
 #nav-menu-container {
   float: right;
-  margin: 5px 0; }
-  @media (max-width: 768px) {
+  margin: 5px 0;
+  max-width: 768px; }
+  @media (max-width: 900px) {
     #nav-menu-container {
       display: none; } }
 
@@ -266,7 +259,7 @@ h6 {
   outline: none; }
   #mobile-nav-toggle i {
     color: #fff; }
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     #mobile-nav-toggle {
       display: inline; } }
 
@@ -336,18 +329,23 @@ body.mobile-nav-active {
 # Sections
 --------------------------------------------------------------*/
 #about {
-  background: #fff;
-  margin-top: 64px; }
-  #about a {
-    color: blue;
-    font-weight: bold;
-    text-decoration: underline; }
-  #about .api-data-divs {
-    margin: 48px 0; }
-    #about .api-data-divs .coinmarketcap-currency-widget {
-      max-width: 480px; }
+  background: #222;
+  padding-top: 64px;
+  max-height: 80vh; }
+  #about .section-title {
+    color: white; }
   #about .about-intro {
-    margin-bottom: 48px; }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin: 80px auto; }
+  #about .section-description {
+    color: white; }
+    #about .section-description.quote {
+      line-height: 38px;
+      max-width: 600px; }
   @media (min-width: 1024px) {
     #about .section-title-divider {
       margin-bottom: 60px; } }
@@ -383,11 +381,56 @@ body.mobile-nav-active {
   #about #blog .section-title {
     text-align: left; }
 
+#energy,
+#bee {
+  color: white;
+  background-size: cover;
+  min-height: 60vh;
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  #energy .col-md-12,
+  #bee .col-md-12 {
+    max-width: 624px;
+    background: rgba(0, 0, 0, 0.25);
+    padding: 0px 24px 24px 24px; }
+    #energy .col-md-12 .section-title,
+    #energy .col-md-12 p.section-description,
+    #energy .col-md-12 .actions,
+    #bee .col-md-12 .section-title,
+    #bee .col-md-12 p.section-description,
+    #bee .col-md-12 .actions {
+      color: white;
+      text-align: right; }
+    #energy .col-md-12 .actions,
+    #bee .col-md-12 .actions {
+      padding: 0; }
+      #energy .col-md-12 .actions a,
+      #bee .col-md-12 .actions a {
+        margin: 0; }
+
+#bee {
+  background: url(../img/bee.jpg) top center fixed; }
+  #bee .col-md-12 .section-title,
+  #bee .col-md-12 p.section-description,
+  #bee .col-md-12 .actions {
+    text-align: left; }
+
+#energy {
+  background: url(../img/energy.jpg) top center fixed; }
+  #energy .col-md-12 {
+    float: right; }
+
 /* community Section
 --------------------------------*/
 #community {
   background-color: #ffdd55;
   padding: 64px 0 128px 0; }
+  #community .section-title,
+  #community .section-description {
+    color: black; }
   #community .section-title-divider  {
     background: #333333 !important; }
 
@@ -514,7 +557,11 @@ body.mobile-nav-active {
 #exchanges {
   padding: 64px 0;
   text-align: center;
-  width: 100%; }
+  width: 100%;
+  background: white; }
+  #exchanges .section-title,
+  #exchanges .section-description {
+    color: black; }
   #exchanges a {
     text-align: center; }
   @media (max-width: 768px) {
@@ -525,6 +572,11 @@ body.mobile-nav-active {
     border-bottom: 2px solid darkred;
     color: darkred;
     padding: 12px 0; }
+  #exchanges .api-data-divs {
+    margin: 48px 0; }
+    #exchanges .api-data-divs .coinmarketcap-currency-widget {
+      max-width: 480px;
+      margin: 0 auto; }
   #exchanges .container {
     display: flex;
     align-items: center;
@@ -574,11 +626,16 @@ body.mobile-nav-active {
   #roadmap .section-title {
     padding-top: 12px; }
   #roadmap .section-description,
-  #roadmap .roadmap-image {
+  #roadmap ul {
     max-width: 768px;
     margin: 24px auto; }
-  #roadmap .roadmap-image img {
-    width: 100%; }
+    #roadmap .section-description a,
+    #roadmap ul a {
+      color: #ffdd55;
+      font-weight: bold; }
+  #roadmap ul {
+    font-size: 18px;
+    color: #ffdd55; }
 
 #rssFeed img {
   width: 100%; }
@@ -634,9 +691,12 @@ body.mobile-nav-active {
   .guide-step a:visited {
     color: darkred; }
 
+.section-title,
+.section-description {
+  color: white; }
+
 .section-title {
   font-size: 32px;
-  color: #111;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -678,14 +738,34 @@ body.mobile-nav-active {
     font-size: 13px;
     color: #ccc; }
 
-.btn {
+.btn,
+.actions a {
   background: #ffdd55;
   border: 2px solid #ffdd55;
   color: #fff; }
-  .btn:hover {
-    background: #fff7d5;
-    border: 2px solid #d5aa00;
-    color: #d5aa00; }
+  .btn:hover,
+  .actions a:hover {
+    background: transparent;
+    color: white; }
+  .btn span,
+  .actions a span {
+    font-size: 12px; }
+
+.btn.primary {
+  background: none;
+  border: 2px solid #ffdd55;
+  color: #ffdd55; }
+  .btn.primary:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border: 2px solid #rgba 255, 255, 255, 0.25;
+    color: white; }
+
+.btn.secondary {
+  border: 2px solid #ffdd55;
+  color: black; }
+  .btn.secondary:hover {
+    background: #ffdd55;
+    border: 2px solid #ffdd55; }
 
 .actions a {
   font-family: "Open Sans", sans-serif;

@@ -3,6 +3,8 @@
 --------------------------------------------------------------*/
 
 @import "./sections/about.scss";
+@import "./sections/projects.scss";
+
 @import "./sections/community.scss";
 @import "./sections/downloads.scss";
 @import "./sections/guide.scss";
@@ -11,9 +13,13 @@
 @import "./sections/blog.scss";
 @import "./sections/guide.scss";
 
+.section-title,
+.section-description {
+  color: white;
+}
+
 .section-title {
   font-size: 32px;
-  color: #111;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;

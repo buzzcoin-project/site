@@ -1,8 +1,13 @@
 /* community Section
 --------------------------------*/
 #community {
-  background-color: #ffdd55;
+  background-color: $accent-color;
   padding: 64px 0 128px 0;
+
+  .section-title,
+  .section-description {
+    color: black;
+  }
 
   .section-title-divider  {
     background: $heading-color !important;
@@ -26,7 +31,7 @@
 
 #community .profile h4 {
   font-weight: 700;
-  color: #ffdd55;
+  color: $accent-color;
   margin-bottom: 5px;
 }
 

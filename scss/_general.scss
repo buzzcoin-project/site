@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #fff;
+  background: #222;
   color: $text-color;
   font-family: $text-font;
 }
@@ -16,7 +16,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: lighten($accent-color, 0.2%);
+  color: white;
   outline: none;
   text-decoration: none;
 }

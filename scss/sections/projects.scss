@@ -1,0 +1,52 @@
+#energy,
+#bee {
+  color: white;
+  background-size: cover;
+  min-height: 60vh;
+  padding: 80px 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .col-md-12 {
+    max-width: 624px;
+    background: rgba(0, 0, 0, 0.25);
+    padding: 0px 24px 24px 24px;
+
+    .section-title,
+    p.section-description,
+    .actions {
+      color: white;
+      text-align: right;
+    }
+
+    .actions {
+      padding: 0;
+      a {
+        margin: 0;
+      }
+    }
+  }
+}
+
+#bee {
+  background: url(../img/bee.jpg) top center fixed;
+
+  .col-md-12 {
+    .section-title,
+    p.section-description,
+    .actions {
+      text-align: left;
+    }
+  }
+}
+
+#energy {
+  background: url(../img/energy.jpg) top center fixed;
+
+  .col-md-12 {
+    float: right;
+  }
+}

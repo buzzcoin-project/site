@@ -9,12 +9,18 @@
   }
 
   .section-description,
-  .roadmap-image {
+  ul {
     max-width: 768px;
     margin: 24px auto;
+
+    a {
+      color: $accent-color;
+      font-weight: bold;
+    }
   }
 
-  .roadmap-image img {
-    width: 100%;
+  ul {
+    font-size: 18px;
+    color: $accent-color;
   }
 }
