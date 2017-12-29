@@ -389,7 +389,7 @@ body.mobile-nav-active {
   #energy .col-md-12,
   #bee .col-md-12 {
     max-width: 624px;
-    background: rgba(0, 0, 0, 0.15);
+    background: rgba(0, 0, 0, 0.25);
     padding: 0px 24px 24px 24px; }
     #energy .col-md-12 .section-title,
     #energy .col-md-12 p.section-description,
