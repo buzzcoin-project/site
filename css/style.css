@@ -126,6 +126,10 @@ h6 {
   background: #111;
   padding: 20px 0;
   min-height: 90px; }
+  #header .container {
+    width: 100vw !important;
+    max-width: 1200px;
+    margin: 0 auto; }
   #header #logo {
     float: left; }
     #header #logo h1 {
