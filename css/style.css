@@ -465,68 +465,67 @@ body.mobile-nav-active {
   #community .profile .pic {
     margin: 24px auto; } }
 
-/* downloads Section
---------------------------------*/
-#downloads {
-  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../img/downloads.jpg") fixed center center;
-  color: white;
-  background-size: cover;
-  padding: 80px 0 60px 0;
-  margin-top: 48px; }
-  #downloads .section-title {
-    color: white; }
-  #downloads .service-items {
+#team {
+  margin-bottom: 120px; }
+  #team .section-description {
+    max-width: 900px;
+    margin: 24px auto; }
+    @media (min-width: 768px) {
+      #team .section-description {
+        margin: 24px auto 64px auto; } }
+  #team .team-members {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column; }
     @media (min-width: 768px) {
-      #downloads .service-items {
+      #team .team-members {
         flex-direction: row;
-        flex-wrap: wrap; } }
-    #downloads .service-items .service-item {
-      margin: 12px;
-      padding: 18px;
-      background: rgba(0, 0, 0, 0.25);
-      border: 1px solid #ffdd55;
-      width: 100%;
+        flex-wrap: wrap;
+        max-width: 900px;
+        margin: 0 auto; } }
+    #team .team-members .person {
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      max-width: 280px; }
-      #downloads .service-items .service-item:hover {
-        background: rgba(255, 255, 255, 0.25); }
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      margin: 24px auto;
+      max-width: 400px; }
       @media (min-width: 768px) {
-        #downloads .service-items .service-item {
-          justify-content: space-around; } }
-      #downloads .service-items .service-item .service-icon {
-        background: #ffdd55;
-        padding: 24px;
-        border-radius: 50%;
-        transition: 0.5s;
-        border: 1px solid #ffdd55; }
-        #downloads .service-items .service-item .service-icon:hover {
-          background: #fff; }
-        #downloads .service-items .service-item .service-icon i {
-          color: black;
-          font-size: 24px; }
-          #downloads .service-items .service-item .service-icon i:hover {
-            color: #ffdd55; }
-      #downloads .service-items .service-item__body {
+        #team .team-members .person {
+          max-width: 240px; } }
+      #team .team-members .person img {
+        width: 240px;
+        border-radius: 120px; }
+        @media (min-width: 768px) {
+          #team .team-members .person img {
+            width: 160px;
+            border-radius: 80px; } }
+      #team .team-members .person h4,
+      #team .team-members .person h5 {
+        text-transform: uppercase;
+        color: #ffdd55; }
+      #team .team-members .person h4 {
+        margin: 16px auto 8px auto; }
+      #team .team-members .person h5 {
+        margin: 0 auto 12px auto;
+        font-weight: bold; }
+      @media (min-width: 768px) {
+        #team .team-members .person {
+          margin: auto 24px; } }
+      #team .team-members .person p {
+        color: white;
+        font-weight: 100;
+        letter-spacing: 1px;
+        margin-bottom: 16px; }
+      #team .team-members .person .social-icons {
         display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        justify-content: center;
-        width: 100%; }
-        #downloads .service-items .service-item__body .service-title {
-          font-weight: 700;
-          text-transform: uppercase;
-          color: white;
-          margin-bottom: 8px; }
-        #downloads .service-items .service-item__body .service-description {
-          line-height: 24px;
-          margin-bottom: 8px;
-          margin-bottom: 8px; }
+        align-items: center;
+        justify-content: center; }
+        #team .team-members .person .social-icons a {
+          margin: auto 16px;
+          font-size: 32px; }
 
 .alt-bg {
   background-color: #ffdd55; }
@@ -724,6 +723,9 @@ body.mobile-nav-active {
   background: #ffdd55;
   margin: 0 auto;
   margin-bottom: 20px; }
+  .section-title-divider.thin {
+    height: 1px;
+    width: 24px; }
   .section-title-divider.left {
     margin: 24px 0 48px 0; }
 
