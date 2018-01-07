@@ -473,10 +473,13 @@ body.mobile-nav-active {
     @media (min-width: 768px) {
       #team .section-description {
         margin: 24px auto 64px auto; } }
-  #team .team-members {
+  #team .team-members,
+  #team .team-members .person,
+  #team .team-members .person .social-icons {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; }
+  #team .team-members {
     flex-direction: column; }
     @media (min-width: 768px) {
       #team .team-members {
@@ -485,9 +488,6 @@ body.mobile-nav-active {
         max-width: 900px;
         margin: 0 auto; } }
     #team .team-members .person {
-      display: flex;
-      align-items: center;
-      justify-content: center;
       flex-direction: column;
       text-align: center;
       margin: 24px auto;
@@ -503,6 +503,10 @@ body.mobile-nav-active {
             width: 160px;
             border-radius: 80px; } }
       #team .team-members .person h4,
+      #team .team-members .person h5,
+      #team .team-members .person p {
+        letter-spacing: 1px; }
+      #team .team-members .person h4,
       #team .team-members .person h5 {
         text-transform: uppercase;
         color: #ffdd55; }
@@ -517,15 +521,10 @@ body.mobile-nav-active {
       #team .team-members .person p {
         color: white;
         font-weight: 100;
-        letter-spacing: 1px;
         margin-bottom: 16px; }
-      #team .team-members .person .social-icons {
-        display: flex;
-        align-items: center;
-        justify-content: center; }
-        #team .team-members .person .social-icons a {
-          margin: auto 16px;
-          font-size: 32px; }
+      #team .team-members .person .social-icons a {
+        margin: auto 16px;
+        font-size: 32px; }
 
 .alt-bg {
   background-color: #ffdd55; }

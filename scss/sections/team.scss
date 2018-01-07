@@ -10,10 +10,15 @@
     }
   }
 
-  .team-members {
+  .team-members,
+  .team-members .person,
+  .team-members .person .social-icons {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .team-members {
     flex-direction: column;
 
     @media (min-width: 768px) {
@@ -24,9 +29,6 @@
     }
 
     .person {
-      display: flex;
-      align-items: center;
-      justify-content: center;
       flex-direction: column;
       text-align: center;
       margin: 24px auto;
@@ -44,6 +46,12 @@
           width: 160px;
           border-radius: 80px;
         }
+      }
+
+      h4,
+      h5,
+      p {
+        letter-spacing: 1px;
       }
 
       h4,
@@ -68,15 +76,10 @@
       p {
         color: white;
         font-weight: 100;
-        letter-spacing: 1px;
         margin-bottom: 16px;
       }
 
       .social-icons {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
         a {
           margin: auto 16px;
           font-size: 32px;
