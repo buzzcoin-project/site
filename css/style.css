@@ -497,7 +497,8 @@ body.mobile-nav-active {
       max-width: 400px; }
       @media (min-width: 768px) {
         #team .team-members .person {
-          max-width: 240px; } }
+          max-width: 240px;
+          margin: 0 24px 24px 24px; } }
       #team .team-members .person img {
         width: 240px;
         border-radius: 120px; }
@@ -518,9 +519,6 @@ body.mobile-nav-active {
       #team .team-members .person h5 {
         margin: 0 auto 12px auto;
         font-weight: bold; }
-      @media (min-width: 768px) {
-        #team .team-members .person {
-          margin: auto 24px; } }
       #team .team-members .person p {
         color: white;
         font-weight: 100;
