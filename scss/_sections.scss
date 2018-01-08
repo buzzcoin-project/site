@@ -6,7 +6,7 @@
 @import "./sections/projects.scss";
 
 @import "./sections/community.scss";
-@import "./sections/downloads.scss";
+@import "./sections/team.scss";
 @import "./sections/guide.scss";
 @import "./sections/exchanges.scss";
 @import "./sections/roadmap.scss";
@@ -48,6 +48,11 @@
   background: $accent-color;
   margin: 0 auto;
   margin-bottom: 20px;
+
+  &.thin {
+    height: 1px;
+    width: 24px;
+  }
 
   &.left {
     margin: 24px 0 48px 0;

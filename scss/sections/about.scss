@@ -21,8 +21,12 @@
     color: white;
 
     &.quote {
-      line-height: 38px;
+      line-height: 28px;
       max-width: 600px;
+
+      @media (min-width: 768px) {
+        line-height: 38px;
+      }
     }
   }
 
