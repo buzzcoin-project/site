@@ -31,6 +31,11 @@
   margin-bottom: 40px;
   font-weight: 100;
 
+  &.important {
+    color: $accent-color;
+    text-transform: uppercase;
+  }
+
   .small {
     line-height: 24px !important;
     font-size: 12px !important;

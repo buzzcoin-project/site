@@ -2,6 +2,16 @@
   background-color: $accent-color;
 }
 
+.section-description.important {
+  display: flex;
+  align-items: center;
+}
+
+.warning-icon {
+  height: 28px;
+  margin: auto 8px;
+}
+
 .guide-step {
   max-width: 768px;
   margin: 0 auto 48px auto;
