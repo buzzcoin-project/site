@@ -10,7 +10,7 @@
   justify-content: center;
   flex-direction: column;
 
-  .col-md-12 {
+  .row {
     max-width: 624px;
     background: rgba(0, 0, 0, 0.5);
     padding: 0px 24px 24px 24px;
@@ -35,7 +35,7 @@
 #bee {
   background: url(../img/bee.jpg) top center fixed;
 
-  .col-md-12 {
+  .row {
     .section-title,
     p.section-description,
     .actions {
@@ -47,7 +47,7 @@
 #energy {
   background: url(../img/energy.jpg) top center fixed;
 
-  .col-md-12 {
+  .row {
     float: right;
   }
 }

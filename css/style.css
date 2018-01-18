@@ -398,36 +398,36 @@ body.mobile-nav-active {
   align-items: center;
   justify-content: center;
   flex-direction: column; }
-  #energy .col-md-12,
-  #bee .col-md-12 {
+  #energy .row,
+  #bee .row {
     max-width: 624px;
     background: rgba(0, 0, 0, 0.5);
     padding: 0px 24px 24px 24px; }
-    #energy .col-md-12 .section-title,
-    #energy .col-md-12 p.section-description,
-    #energy .col-md-12 .actions,
-    #bee .col-md-12 .section-title,
-    #bee .col-md-12 p.section-description,
-    #bee .col-md-12 .actions {
+    #energy .row .section-title,
+    #energy .row p.section-description,
+    #energy .row .actions,
+    #bee .row .section-title,
+    #bee .row p.section-description,
+    #bee .row .actions {
       color: white;
       text-align: right; }
-    #energy .col-md-12 .actions,
-    #bee .col-md-12 .actions {
+    #energy .row .actions,
+    #bee .row .actions {
       padding: 0; }
-      #energy .col-md-12 .actions a,
-      #bee .col-md-12 .actions a {
+      #energy .row .actions a,
+      #bee .row .actions a {
         margin: 0; }
 
 #bee {
   background: url(../img/bee.jpg) top center fixed; }
-  #bee .col-md-12 .section-title,
-  #bee .col-md-12 p.section-description,
-  #bee .col-md-12 .actions {
+  #bee .row .section-title,
+  #bee .row p.section-description,
+  #bee .row .actions {
     text-align: left; }
 
 #energy {
   background: url(../img/energy.jpg) top center fixed; }
-  #energy .col-md-12 {
+  #energy .row {
     float: right; }
 
 /* community Section
